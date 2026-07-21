@@ -539,9 +539,9 @@ section {
   text-align: center;
 }
 .voice-avatar {
-  width: 50; height: 50;
+  width: 180px; height: 180px;
   border-radius: 50%;
-  margin: 10 auto 20px;
+  margin: 0 auto 20px;
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   border: 5px solid var(--green-100);
