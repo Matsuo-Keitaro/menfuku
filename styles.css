@@ -808,13 +808,7 @@ section {
   position: relative;
   overflow: hidden;
 }
-.area-visual::before {
-  content: "";
-  position: absolute;
-  inset: 20px;
-  border: 2px dashed var(--green-300);
-  border-radius: var(--radius-lg);
-}
+
 .area-visual .pin {
   font-size: 64px;
   color: var(--green-600);
