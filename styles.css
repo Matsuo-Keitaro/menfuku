@@ -97,7 +97,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   gap: 12px;
   font-family: var(--font-jp);
-  font-weight: 700;
+  font-weight: 800;
   color: var(--green-700);
 }
 
