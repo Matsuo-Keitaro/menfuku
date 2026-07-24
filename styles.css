@@ -531,7 +531,6 @@ section {
   text-align: center;
 }
 
-/*
 .voice-avatar {
   width: 180px; height: 180px;
   border-radius: 50%;
@@ -540,7 +539,6 @@ section {
   box-shadow: var(--shadow-sm);
   border: 5px solid var(--green-100);
 }
-*/
 
 .voice-tags {
   display: flex;
@@ -603,12 +601,10 @@ section {
   margin: 12px 0;
 }
 
-/*
 @media (max-width: 100px) {
   .voice-card { grid-template-columns: 1fr; padding: 28px; gap: 24px; }
   .voice-avatar { width: 100px; height: 100px; }
 }
-*/
 
 /* ---------- Reasons / 強み ---------- */
 .reasons {
