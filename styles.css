@@ -513,6 +513,8 @@ section {
 .voice {
   background: linear-gradient(180deg, var(--green-50) 0%, var(--cream) 100%);
 }
+
+/*
 .voice-card {
   background: white;
   border-radius: var(--radius-lg);
@@ -524,6 +526,8 @@ section {
   gap: 40px;
   align-items: start;
 }
+*/
+
 .voice-persona {
   text-align: center;
 }
