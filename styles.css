@@ -514,6 +514,152 @@ section {
   background: linear-gradient(180deg, var(--green-50) 0%, var(--cream) 100%);
 }
 
+.voice-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.voice-persona {
+  text-align: center;
+}
+
+.voice-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 5px solid var(--green-100);
+  background: var(--green-50);
+  flex-shrink: 0;
+}
+
+.voice-avatar img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.voice-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.voice-tag {
+  padding: 4px 12px;
+  background: var(--green-100);
+  color: var(--green-700);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.voice-content h3 {
+  font-size: 22px;
+  color: var(--green-700);
+  margin: 0 0 24px;
+  line-height: 1.5;
+  padding-left: 20px;
+  border-left: 5px solid var(--green-400);
+}
+
+.ba-block {
+  margin-bottom: 16px;
+}
+
+.ba-label {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: var(--font-jp);
+  letter-spacing: 0.05em;
+}
+
+.ba-label.before {
+  background: #ffe4d5;
+  color: #c46236;
+}
+
+.ba-label.after {
+  background: #d8eede;
+  color: var(--green-700);
+}
+
+.ba-block p {
+  margin: 0;
+  color: var(--ink);
+  line-height: 1.9;
+  font-size: 15px;
+}
+
+.ba-block p .em {
+  background: linear-gradient(transparent 60%, #fce8a8 60%);
+  font-weight: 700;
+  padding: 0 3px;
+}
+
+.ba-arrow {
+  text-align: center;
+  color: var(--green-500);
+  font-size: 24px;
+  margin: 12px 0;
+}
+
+@media (max-width: 900px) {
+  .voice-card {
+    grid-template-columns: 1fr;
+    padding: 28px;
+    gap: 24px;
+  }
+
+  .voice-avatar {
+    width: 160px;
+    height: 160px;
+  }
+
+  .voice-content h3 {
+    font-size: 20px;
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .voice-card {
+    padding: 22px;
+  }
+
+  .voice-avatar {
+    width: 140px;
+    height: 140px;
+  }
+
+  .voice-content h3 {
+    font-size: 18px;
+  }
+}
+
+
+/*
+---------- Voice / Before-After ---------- 
+.voice {
+  background: linear-gradient(180deg, var(--green-50) 0%, var(--cream) 100%);
+}
+
 
 .voice-card {
   background: white;
@@ -605,6 +751,7 @@ section {
   .voice-card { grid-template-columns: 1fr; padding: 28px; gap: 24px; }
   .voice-avatar { width: 100px; height: 100px; }
 }
+*/
 
 /* ---------- Reasons / 強み ---------- */
 .reasons {
