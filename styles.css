@@ -598,7 +598,7 @@ section {
 
 @media (max-width: 780px) {
   .voice-card { grid-template-columns: 1fr; padding: 28px; gap: 24px; }
-  .voice-avatar { width: 340px; height: 340px; }
+  .voice-avatar { width: 300%; height: 300%; }
 }
 
 /* ---------- Reasons / 強み ---------- */
