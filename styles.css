@@ -514,7 +514,7 @@ section {
   background: linear-gradient(180deg, var(--green-50) 0%, var(--cream) 100%);
 }
 
-/*
+
 .voice-card {
   background: white;
   border-radius: var(--radius-lg);
@@ -526,12 +526,11 @@ section {
   gap: 40px;
   align-items: start;
 }
-*/
 
 .voice-persona {
   text-align: center;
 }
-/*
+
 .voice-avatar {
   width: 180px; height: 180px;
   border-radius: 50%;
@@ -540,7 +539,7 @@ section {
   box-shadow: var(--shadow-sm);
   border: 5px solid var(--green-100);
 }
-*/
+
 .voice-tags {
   display: flex;
   flex-wrap: wrap;
