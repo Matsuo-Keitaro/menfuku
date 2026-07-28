@@ -534,7 +534,7 @@ section {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  margin: 0 auto 20px;
+  margin: 0 auto 0px;
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   border: 5px solid var(--green-100);
@@ -640,7 +640,7 @@ section {
 
 @media (max-width: 600px) {
   .voice-card {
-    padding: 12px;
+    padding: 22px;
   }
 
   .voice-avatar {
