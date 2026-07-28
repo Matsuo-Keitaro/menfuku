@@ -219,7 +219,7 @@ img { max-width: 100%; display: block; }
 }
 .hero h1 .accent {
   background: linear-gradient(transparent 60%, #fce8a8 60%);
-  padding: 0 4px;
+  padding: 0px;
 }
 .hero h1 .green-word {
   color: var(--green-600);
