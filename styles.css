@@ -640,7 +640,7 @@ section {
 
 @media (max-width: 600px) {
   .voice-card {
-    padding: 22px;
+    padding: 12px;
   }
 
   .voice-avatar {
